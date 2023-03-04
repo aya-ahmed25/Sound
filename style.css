@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #708083;
+}
+
+.box {
+    position: relative;
+    width: 360px;
+    height: 500px;
+    background-color: #A5B6B0;
+    margin: 20px auto;
+    top: 50px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 12px 5px;
+}
+
+.music {
+    bottom: 125px;
+    left: 110px;
+    position: absolute;
+    border: 2px solid #00000094;
+    border-radius: 30px;
+    width: 145px;
+    height: 35px;
+    background-color: #A5B6B0;
+}
+
+.image {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 290px;
+    left: 90px;
+    animation-name: animate;
+    animation-duration: 70s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animate {
+    100% {
+        transform: rotate(1turn);
+    }
+
+}
+
+.text {
+    text-align: center;
+    position: absolute;
+    bottom: 240px;
+    left: 120px;
+    font-family: 'Signika', sans-serif;
+}
+
+.text2 {
+    position: absolute;
+    left: 45px;
+    top: 35px;
+}
+
+.face {
+    left: 100px;
+    position: absolute;
+    bottom: 65px;
+    height: 30px;
+}
+
+.insta {
+    left: 175px;
+    position: absolute;
+    bottom: 65px;
+    height: 30px;
+}
+
+.youtube {
+    left: 135px;
+    position: absolute;
+    bottom: 65px;
+    height: 30px;
+}
+
+.twitter {
+    left: 205px;
+    position: absolute;
+    bottom: 65px;
+    height: 30px;
+}
+
+.email {
+    left: 240px;
+    position: absolute;
+    bottom: 65px;
+    height: 30px;
+}
+
+.list {
+    position: absolute;
+    left: 13px;
+    top: 9px;
+}
